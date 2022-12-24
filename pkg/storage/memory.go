@@ -35,9 +35,10 @@ package storage
 // func PostgresPool() *sql.DB {
 // 	return db
 // }
-
 import (
 	_ "github.com/JoseGuillen160722/Go-Api"
+	_ "github.com/denisenkom/go-mssqldb"
+	_ "github.com/lib/pq"
 )
 
 type Memory struct {
